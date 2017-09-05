@@ -209,7 +209,7 @@ Successfully installed bleach-1.5.0 html5lib-0.9999999 markdown-2.6.9 protobuf-3
 
 ## install ipython and run test
 ```sh
-sudo /miniconda3/bin/pip install ipython
+$ sudo /miniconda3/bin/pip install ipython
 ```
 
 ```sh
