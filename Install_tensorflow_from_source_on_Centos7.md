@@ -207,7 +207,7 @@ Installing collected packages: protobuf, html5lib, bleach, werkzeug, markdown, t
 Successfully installed bleach-1.5.0 html5lib-0.9999999 markdown-2.6.9 protobuf-3.4.0 tensorflow-1.3.0 tensorflow-tensorboard-0.1.5 werkzeug-0.12.2
 ```
 
-* install ipython
+## install ipython and run test
 ```sh
 sudo /miniconda3/bin/pip install ipython
 ```
