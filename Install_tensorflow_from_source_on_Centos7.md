@@ -99,7 +99,7 @@ sudo /miniconda3/bin/pip install six numpy wheel
 
 ```
 
-##compile and build tensorflow
+## compile and build tensorflow
 * download
 ```sh
 $ wget https://github.com/tensorflow/tensorflow/archive/v1.3.0.tar.gz
@@ -150,7 +150,7 @@ MPI support will not be enabled for TensorFlow
 Configuration finished
 ```
 
-##build 
+## build 
 ```sh
 $ bazel build --config=opt --copt=-mavx --copt=-mavx2 --copt=-mfma --copt=-mfpmath=both --copt=-msse4.2 --config=cuda //tensorflow/tools/pip_package:build_pip_package 
 ...
