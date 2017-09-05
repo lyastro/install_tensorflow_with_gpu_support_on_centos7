@@ -140,3 +140,9 @@ Sign up for free: https://anaconda.org
 ## Now the default pip is for python3!
 * the default pip for sudo is still python2
 * use the full path /miniconda/bin/pip when sudo
+* add the following lines in your .bashrc file
+
+```sh
+# added by Miniconda3 4.3.21 installer
+export PATH="/miniconda3/bin:$PATH"
+```
