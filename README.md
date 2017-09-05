@@ -9,6 +9,9 @@ $ sudo yum -y install epel-release
 $ sudo yum -y install gcc gcc-c++ python-pip python-devel atlas atlas-devel gcc-gfortran openssl-devel libffi-devel
 ```
 
+## official guide for installing tensorflow
+https://www.tensorflow.org/install/install_sources
+
 ## Install CUDA following the guide from http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#axzz4rhm3n5RO
 * Install GPU driver
 ```sh
