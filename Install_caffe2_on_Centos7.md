@@ -2,6 +2,7 @@
 
 ## caffe2 only support python2 at the moment
 
+Based on the guide from https://caffe2.ai/docs/getting-started.html?platform=centos&configuration=cloud
 
 ## system
 * update yum
