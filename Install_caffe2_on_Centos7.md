@@ -3580,6 +3580,8 @@ Install the project...
 -- Set runtime path of "/usr/local/bin/tutorial_blob" to ""
 
 
+```
+
 * add the following lines in your ~/.bashrc file
 
 ```sh

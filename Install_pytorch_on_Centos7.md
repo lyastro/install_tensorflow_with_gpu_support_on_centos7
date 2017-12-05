@@ -162,3 +162,30 @@ $ sudo /miniconda3/bin/pip install cffi numpy pyyam
 $ sudo /miniconda3/bin/conda install mkl
 $ sudo /miniconda3/bin/conda install -c soumith magma-cuda80
 $ sudo /miniconda3/bin/conda install -c soumith cuda80
+
+
+ sudo /miniconda3/bin/conda install pytorch torchvision cuda80 -c soumith
+[sudo] password for liangyu:
+Fetching package metadata ...........
+Solving package specifications: .
+
+Package plan for installation in environment /miniconda3:
+
+The following NEW packages will be INSTALLED:
+
+    freetype:    2.5.5-2
+    jbig:        2.1-0
+    jpeg:        9b-0
+    libgcc:      5.2.0-0
+    libpng:      1.6.30-1
+    libtiff:     4.0.6-3
+    numpy:       1.13.1-py36_0
+    olefile:     0.44-py36_0
+    pillow:      4.2.1-py36_0
+    pytorch:     0.2.0-py36h53baedd_4cu80 soumith [cuda80]
+    torchvision: 0.1.9-py36h7584368_1     soumith
+
+Proceed ([y]/n)? y
+
+$ sudo /miniconda3/bin/conda install freetype jbig jpeg libgcc libpng libtiff numpy olefile pillow
+$ sudo /miniconda3/bin/conda install pytorch torchvision cuda80 -c soumith
